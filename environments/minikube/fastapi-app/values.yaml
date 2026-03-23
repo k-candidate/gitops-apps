@@ -1,0 +1,10 @@
+image:
+  tag: v1.0.1
+
+database:
+  existingSecret: fastapi-app-db
+
+postgresql:
+  enabled: true
+  auth:
+    username: fastapi_app
